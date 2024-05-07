@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F1EAF1;
+}
+
+/* ================================== HEADER PRINCIPAL ( INICIO ) =========================================== */
+
+.headerPrincipal{
+    background-color: #FB9DF1;
+    height: 70px;
+    box-shadow: 2px 2px 6px -2px;
+}
+
+.headerPrincipal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerPrincipal__PI{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.headerPrincipal__logo{
+    height: 68px;
+}
+
+.headerPrincipal__busqueda{
+    height: 30px;
+    border-radius: 22px;
+    padding: 10px;
+    width: 220px;
+    color: rgb(207, 214, 214);
+    border-style: none;
+}
+
+.headerPrincipal__PD{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.headerPrincipal__enlaces{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 50%;
+}
+
+.navegacionPrincipal__enlace{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding:0px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration:none;
+    color: black;
+}
+
+.navegacionPrincipal__enlace:hover{
+    background-color: rgba(240, 248, 255, 0.422);
+}
+
+.navegacionPrincipal__user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacionPrincipal__user__enlace{
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 600;
+    color: black;
+}
+
+/* ================================== HEADER PRINCIPAL ( FIN ) =========================================== */
+
+/* ================================== HEADER SECUNDARIO ( INICIO ) =========================================== */
+
+.headerSecundario{
+    display: flex;
+    height: 33px;
+    background-color: #FFD9FB;
+    box-shadow: 4px 2px 6px -2px;
+}
+
+.headerSecundario__PI{
+    width: 50%;
+    text-align: center;
+    line-height: 33px;
+    cursor: pointer;
+}
+
+.headerSecundario__PD{
+    width: 50%;
+    text-align: center;
+    line-height: 33px;
+    cursor: pointer;
+}
+
+.headerSecundario__enlace{
+    width: 100%;
+    text-decoration: none;
+    color: #180016;
+}
+
+.headerSecundario__PI:hover, .headerSecundario__PD:hover{
+    background-color: rgba(240, 248, 255, 0.422);
+}
+
+/* ================================== HEADER SECUNDARIO ( FIN ) =========================================== */
+
+/* ================================== MAIN ( INICIO ) =========================================== */
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.section__PI{
+    width: 16%;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f3f3c1;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px -2px;
+}
+
+.categorias__enlace{
+    text-decoration: none;
+    padding: 6px;
+    color: #180016;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section__PD{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.portada{
+    margin-bottom: 160px;
+}
+
+.portada__img{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px -2px;
+}
+
+.ofertas{
+    display: flex;
+    justify-content: space-around;
+    height: 180px;
+    border-radius: 8px;
+    background: rgb(228,194,225);
+    background: -moz-linear-gradient(0deg, rgba(228,194,225,1) 0%, rgba(240,211,237,1) 60%, rgba(254,241,252,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(228,194,225,1) 0%, rgba(240,211,237,1) 60%, rgba(254,241,252,1) 100%);
+    background: linear-gradient(0deg, rgba(228,194,225,1) 0%, rgba(240,211,237,1) 60%, rgba(254,241,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4c2e1",endColorstr="#fef1fc",GradientType=1);
+}
+
+.oferta1{
+    background-color: #F1EAF1;
+    height: 210px;
+    width: 190px;
+    border-radius: 8px;
+    margin-top: -50px;
+    box-shadow: 2px 2px 6px -2px;
+}
+
+.instagram{
+    background-color: #F1EAF1;
+    height: 214px;
+    width: 214px;
+    border-radius: 8px;
+    margin-top: -50px;
+    box-shadow: 2px 2px 6px -2px;
+}
+
+.oferta2{
+    background-color: #F1EAF1;
+    height: 210px;
+    width: 190px;
+    border-radius: 8px;
+    margin-top: -50px;
+    box-shadow: 2px 2px 6px -2px;
+}
+
+
+
+
+/* ================================== MAIN ( FIN ) =========================================== */
+
+/* ================================== OFERTAS ( INICIO ) =========================================== */
+/* ======== PRIMER CARD ========= */
+.oferta1__img{
+    position: absolute;
+    width: 140px;
+    height: 160px;
+    object-fit: contain;
+    margin-top: -80px;
+}
+
+.oferta1__dat{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #e4c2e183;
+    padding: 4px;
+}
+
+.oferta2__nombre{
+    font-size: 14px;
+}
+
+.oferta1__descripcion{
+    padding: 12px;
+    overflow: hidden;
+}
+
+.oferta1__botonera{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.oferta1__add{
+    width: 32px;
+    height: 32px;
+}
+
+.oferta1__comprar{
+
+}
+
+/* ======== SEGUNDA CARD ========= */
+
+.instagram__icon{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -50px;
+
+}
+
+.instagram__public{
+    object-fit: cover;
+}
+
+/* ======== TERCERA CARD ========= */
+
+.oferta2__img{
+    position: absolute;
+    width: 140px;
+    height: 160px;
+    object-fit: contain;
+    margin-top: -80px;
+}
+
+.oferta2__dat{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #e4c2e183;
+    padding: 4px;
+}
+
+.oferta2__nombre{
+    font-size: 14px;
+}
+
+.oferta2__descripcion{
+    padding: 12px;
+    overflow: hidden;
+}
+
+.oferta2__botonera{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.oferta2__add{
+    width: 32px;
+    height: 32px;
+}
+
+.oferta2__comprar{
+
+}
+
+/* ================================== OFERTAS ( FIN ) =========================================== */
